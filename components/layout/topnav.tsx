@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Bell, Menu, Search, X } from "lucide-react"
-import { SkyVestLogo } from "@/components/ui/logo"
+import { AegisEquityLogo } from "@/components/ui/logo"
 import { Sidebar } from "@/components/layout/sidebar"
 
 interface TopNavProps {

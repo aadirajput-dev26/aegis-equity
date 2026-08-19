@@ -4,7 +4,7 @@ import { useState } from "react"
 import { useRouter } from "next/navigation"
 import Link from "next/link"
 import { ArrowRight, AlertCircle, RefreshCcw } from "lucide-react"
-import { SkyVestLogo } from "@/components/ui/logo"
+import { AegisEquityLogo } from "@/components/ui/logo"
 
 type AuthStep = "identifier" | "otp"
 type AuthMode = "email" | "mobile"
@@ -106,7 +106,7 @@ export default function LoginPage() {
         }} />
 
         <div style={{ marginBottom: "auto" }}>
-          <SkyVestLogo variant="light" size="md" href="/" />
+          <AegisEquityLogo variant="light" size="md" href="/" />
         </div>
 
         <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", paddingTop: 60 }}>
@@ -167,7 +167,7 @@ export default function LoginPage() {
 
         <div style={{ width: "100%", maxWidth: 400, position: "relative" }}>
           <div style={{ marginBottom: 40, display: "flex", justifyContent: "center" }} className="mobile-logo">
-            <SkyVestLogo variant="dark" size="md" href="/" />
+            <AegisEquityLogo variant="dark" size="md" href="/" />
           </div>
 
           {step === "identifier" ? (

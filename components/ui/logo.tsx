@@ -10,7 +10,7 @@ interface LogoProps {
   className?: string
 }
 
-export function SkyVestLogo({ variant = "dark", size = "md", href = "/", className }: LogoProps) {
+export function AegisEquityLogo({ variant = "dark", size = "md", href = "/", className }: LogoProps) {
   const sizes = {
     sm: { mark: 28, fontSize: "1rem", gap: 8 },
     md: { mark: 34, fontSize: "1.2rem", gap: 10 },
@@ -24,7 +24,7 @@ export function SkyVestLogo({ variant = "dark", size = "md", href = "/", classNa
     <div
       className={cn("flex items-center", className)}
       style={{ gap: s.gap }}
-      aria-label="SkyVest"
+      aria-label="Aegis Equity"
     >
       {/* Geometric logo mark */}
       <svg
@@ -69,7 +69,7 @@ export function SkyVestLogo({ variant = "dark", size = "md", href = "/", classNa
             color: isDark ? "#102a43" : "#ffffff",
           }}
         >
-          Sky
+          Aegis
         </span>
         <span
           style={{
@@ -80,7 +80,7 @@ export function SkyVestLogo({ variant = "dark", size = "md", href = "/", classNa
             color: isDark ? "#0ea5e9" : "#38bdf8",
           }}
         >
-          Vest
+          Equity
         </span>
       </div>
     </div>
