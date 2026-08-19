@@ -15,7 +15,7 @@ import {
   HelpCircle,
   FileCheck,
 } from "lucide-react"
-import { SkyVestLogo } from "@/components/ui/logo"
+import { AegisEquityLogo } from "@/components/ui/logo"
 import { formatINR, formatPercent } from "@/lib/utils"
 
 const featuredCompanies = [
@@ -96,7 +96,7 @@ export default function LandingPage() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 36 }}>
-          <SkyVestLogo variant="dark" size="md" href="/" />
+          <AegisEquityLogo variant="dark" size="md" href="/" />
           <div
             style={{
               display: "flex",
@@ -571,7 +571,7 @@ export default function LandingPage() {
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 32, marginBottom: 40 }}>
             <div>
-              <SkyVestLogo variant="dark" size="md" href="/" />
+              <AegisEquityLogo variant="dark" size="md" href="/" />
               <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", marginTop: 8 }}>
                 Private markets, clearly managed.
               </p>
